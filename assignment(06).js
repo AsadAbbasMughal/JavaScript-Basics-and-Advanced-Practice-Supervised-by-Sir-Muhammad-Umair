@@ -321,21 +321,34 @@ let products = [
 // console.log(maxPrice);
 //-------------------------------------------------------------
 
+
 // Exercise 6
 // Get the average rating of all reviews.
 // Example: 4.2
 //Solution.
-// let sum =0;
+//First Method
 // let avg;
+// for(let i=0; i<products.length; i++){
+//     let sum =0;
+//   for(let j=0; j<products[i].reviews.length; j++){
+//    sum += products[i].reviews[j].rating;
+// }
+// avg = sum /  products[i].reviews.length
+// }
+// console.log(avg);
+
+//Second method
+// let totalRating = 0;
+// let sum =0;
 // for(let i=0; i<products.length; i++){
 //   for(let j=0; j<products[i].reviews.length; j++){
 //    sum += products[i].reviews[j].rating;
-//   // avg = products[i].reviews[j].rating;
-//    avg = sum / products[0].reviews[0].rating;
-
-//   }
+//    totalRating++;
 // }
-// console.log(avg);
+
+  
+// }
+// console.log(sum / totalRating);
 //-------------------------------------------------------------
 
 // Exercise 7
